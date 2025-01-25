@@ -18,6 +18,8 @@ struct EasySync: ParsableCommand {
         version: "0.0.1",
         shouldDisplay: true,
         subcommands: [
+            BackupCommand.self,
+            DiffCommand.self,
         ]
     )
 }
