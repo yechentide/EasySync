@@ -5,10 +5,6 @@
 // https://swiftpackageindex.com/apple/swift-argument-parser/documentation
 
 import ArgumentParser
-import Rainbow
-import Spinner
-import os
-import SwiftUI
 
 @main
 struct EasySync: ParsableCommand {
